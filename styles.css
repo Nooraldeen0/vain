@@ -1,0 +1,132 @@
+
+#title{
+  background-color: #FF8DC7;
+  font-family: 'Kalam', cursive;
+  text-align:center;
+}
+#features{
+  font-family: 'Kalam', cursive;
+  text-align:center;
+  padding:7% 15%;
+}
+/* .upper-star{
+  position: absolute;
+  top:9.5rem;
+  right:31.875rem;
+}
+h1{
+ font-family: 'Calligraffitti', cursive;
+ font-size:5.625em;
+}
+header h1{
+  margin-top:12.5rem;
+    opacity: 0.25;
+}
+.sigh{
+  font-size:2.5rem;
+  opacity: 0.1;
+}
+.doctor{
+  width:6.25rem;
+  position: absolute;
+  top:6.25rem;
+  right:43.75rem;
+  opacity: .5;
+}
+.smiley{
+  width:3.75rem;
+  position: absolute;
+  bottom:5%;
+  left:100%;
+}
+.heart{
+  margin:auto;
+}
+.sad{
+  width:3.125rem;
+  position: absolute;
+  right:100%;
+}
+.smile-face{
+  height:3.125rem;
+  width:12.5rem;
+position: relative;
+left:75%;
+bottom:25rem;
+}
+.spread{
+  width:12.5rem;
+   filter: invert(80%);
+}
+.spread-love{
+  position: relative;
+  width:12.5rem;
+  height:6.25rem;
+  left:12.5rem;
+  bottom:50rem;
+  color:silver;
+} */
+ .nav-itemss{
+   margin:auto 50px;
+ }
+ .container-fluid{
+ padding:5% 10%;
+
+.container-fluid{
+padding:5% 10%;
+
+}
+/* Navigation Bar */
+.navbar{
+ padding:0 0 4.5rem;
+
+}
+a.nav-itemss{
+  font-size:1.8rem;
+  margin-right:10%;
+  font-size:1.6rem;
+
+}
+a.nav-itemss:hover{
+  background-color:#FF5858;
+@@ -122,22 +121,19 @@ a.nav-itemss:active{
+}
+.navbar-brand{
+ font-family: 'Calligraffitti', cursive;
+ font-size:2.5rem;
+ /* font-size:2.5rem; */
+ font-size: 3vw;
+   font-size: max(25px, min(3vw, 80px));
+   font-size: clamp(25px, 3vw, 80px);
+ font-weight: bold;
+
+}
+.navbar-nav{
+  margin-right:30px;
+}
+a.brand-marggg{
+  margin-left:10%;
+}
+.nav-item{
+ padding:0 18px;
+
+}
+
+.nav-link{
+ font-size:1.2rem;
+ font-weight: 300;
+ position: relative;
+ right:20px;
+@@ -152,9 +148,9 @@ a.brand-marggg{
+
+h1{
+  font-family: 'Calligraffitti', cursive;
+  font-size: 10vw; /* Browsers that do not support "MIN () - MAX ()" and "Clamp ()" functions will take this value.*/
+    font-size: max(100px, min(10vw, 150px)); /* Browsers that do not support the "clamp ()" function will take this value. */
+    font-size: clamp(65px, 10vw, 175px);
+  font-size: 9vw; /* Browsers that do not support "MIN () - MAX ()" and "Clamp ()" functions will take this value.*/
+    font-size: max(75px, min(9vw, 125px)); /* Browsers that do not support the "clamp ()" function will take this value. */
+    font-size: clamp(50px, 9vw, 150px);
+
+
+}
