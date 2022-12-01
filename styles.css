@@ -86,7 +86,7 @@ a.nav-itemss:active{
  /* features section */
   #features{
     padding:7% 15%;
-    background-image:url("images/feat_pic.jpg");
+    background-color:#F0DBDB;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
