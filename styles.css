@@ -182,7 +182,7 @@ padding: 7% 15%;
 .social-icons {
 margin: 20px 10px;
 }
-.Copyright{
+.copyright{
 font-family: arial;
 }
 
@@ -204,7 +204,6 @@ font-family: arial;
        font-size: 40px;
      }}
 
-
   @media(max-width:670px)
   {
     #hobbies .slide-text{
@@ -224,21 +223,20 @@ font-family: arial;
     {
       #hobbies .slide-text{
         position: absolute;
-        font-size: 1rem;
+        font-size: 0.7rem;
       }
-    }
-
-    }
-    @media(max-width:391px)
-    {
-      #hobbies .slide-text{
-        position: absolute;
-        font-size: 65%;
-      }}
-      @media(max-width:280px)
+      }@media(max-width:280px)
       {
         #hobbies .slide-text{
           position: absolute;
-          font-size: 55%;
+          font-size: 0.6rem;;
         }
     }
+    @media(max-width:240px)
+    {
+      #hobbies .slide-text{
+        position: absolute;
+        font-size: 0.5rem;;
+      }
+  }
+
