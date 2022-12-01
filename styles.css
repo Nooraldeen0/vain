@@ -85,8 +85,9 @@ a.nav-itemss:active{
 
  /* features section */
   #features{
+    background-color:#D1D9D9;
     padding:7% 15%;
-    background-color:#fff;
+   
 
   }
   .big-heading{
