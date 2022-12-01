@@ -1,76 +1,15 @@
-
+body{
+    font-family: 'Kalam', cursive;
+      text-align:center;
+}
+/* title section */
 #title{
-  background-color: #DEBACE;
-  font-family: 'Kalam', cursive;
-  text-align:center;
+  background-color: #000;
+  background-image:url("images/dro.jpg");
+ background-position: center; /* Center the image */
+ background-repeat: no-repeat; /* Do not repeat the image */
+ background-size: cover;
 }
-#features{
-  font-family: 'Kalam', cursive;
-  text-align:center;
-  padding:7% 15%;
-}
-/* .upper-star{
-  position: absolute;
-  top:9.5rem;
-  right:31.875rem;
-}
-h1{
- font-family: 'Calligraffitti', cursive;
- font-size:5.625em;
-}
-header h1{
-  margin-top:12.5rem;
-    opacity: 0.25;
-}
-.sigh{
-  font-size:2.5rem;
-  opacity: 0.1;
-}
-.doctor{
-  width:6.25rem;
-  position: absolute;
-  top:6.25rem;
-  right:43.75rem;
-  opacity: .5;
-
-
-}
-.smiley{
-  width:3.75rem;
-  position: absolute;
-  bottom:5%;
-  left:100%;
-
-}
-.heart{
-  margin:auto;
-}
-.sad{
-  width:3.125rem;
-  position: absolute;
-  right:100%;
-}
-.smile-face{
-  height:3.125rem;
-  width:12.5rem;
-position: relative;
-left:75%;
-bottom:25rem;
-
-}
-.spread{
-  width:12.5rem;
-   filter: invert(80%);
-}
-.spread-love{
-  position: relative;
-
-  width:12.5rem;
-  height:6.25rem;
-  left:12.5rem;
-  bottom:50rem;
-  color:silver;
-} */
 
 .container-fluid{
 padding:5% 10%;
@@ -83,11 +22,12 @@ padding:5% 10%;
 }
 a.nav-itemss{
   font-size:1.6rem;
-
 }
+/* -------------------------------------------------------------- */
 a.nav-itemss:hover{
-  background-color:#FF5858;
-  color:#C8FFD4;
+  /* background-color:#FF5858; */
+  /* color:#C8FFD4; */
+  color:#EEEEEE;
   border-radius: 40px;
   width:150px;
   cursor: pointer;
@@ -98,27 +38,28 @@ a.nav-itemss:link{
       cursor: pointer;
 }
 a.nav-itemss:target{
-  background-color:#FF5858;
+  /* background-color:#FF5858; */
     color:#EDEDED;
   border-radius: 40px;
     width:150px;
     cursor: pointer;
 }
 
-a.nav-itemss:focus{
+/* a.nav-itemss:focus{
   background-color:#FF5858;
     color:#EDEDED;
   border-radius: 40px;
     width:150px;
     cursor: pointer;
-}
+} */
 a.nav-itemss:active{
-  background-color:#FF5858;
+  /* background-color:#FF5858; */
     color:#EDEDED;
   border-radius: 40px;
     width:150px;
     cursor: pointer;/* to stop the text from moving*/
 }
+/* -------------------------------------------------------------- */
 .navbar-brand{
  font-family: 'Calligraffitti', cursive;
  /* font-size:2.5rem; */
@@ -133,30 +74,40 @@ a.nav-itemss:active{
 }
 
 
-.nav-link{
+ .nav-link{
  font-weight: 300;
  position: relative;
  right:20px;
-}
+  }/* this is for the links when the screen is small  */
 
+
+
+
+ /* features section */
+  #features{
+    padding:7% 15%;
+    background-image:url("images/feat_pic.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+  }
+  .big-heading{
+    font-family: 'Marck Script', cursive;
+    font-size: 9vw; /* Browsers that do not support "MIN () - MAX ()" and "Clamp ()" functions will take this value.*/
+      font-size: max(75px, min(9vw, 125px)); /* Browsers that do not support the "clamp ()" function will take this value. */
+      font-size: clamp(50px, 9vw, 150px);
+      color:#fff;
+  }
 .heart{
   max-width: 100%;
-  min-width: 15rem;
+  min-width: 40%;
   height: auto;
     opacity: 0.7;
-}
-
-h1{
-  font-family: 'Calligraffitti', cursive;
-  font-size: 9vw; /* Browsers that do not support "MIN () - MAX ()" and "Clamp ()" functions will take this value.*/
-    font-size: max(75px, min(9vw, 125px)); /* Browsers that do not support the "clamp ()" function will take this value. */
-    font-size: clamp(50px, 9vw, 150px);
-
+    filter: brightness(0) invert(1);
 
 }
-.name-of-brand{
-  margin-right:30px;
-}
+
+
 
 .upper-star{
   opacity: 0.8;
@@ -166,12 +117,19 @@ h1{
   width:7.5%;
   display:inline-block;
   min-width: 2rem;
+  filter: brightness(0) invert(1);
+}
+.sigh{
+  color:#fff;
+}
+.big_word{
+  color:#fff;
 }
 .begin{
   margin-top:4vw;
 
 }
-.doctor{
+.look{
   max-width: 25%;
   min-width: 3rem;
   height: auto;
@@ -179,13 +137,13 @@ h1{
 
 
 }
-.hyacinth{
+.Worthless{
   max-width: 25%;
   min-width: 3rem;
   height: auto;
 margin-bottom:14px;
 }
-.fox{
+.give_up{
   max-width: 25%;
   min-width: 3rem;
   height: auto;
@@ -197,16 +155,79 @@ margin-bottom:14px;
     height: 100px;
     -moz-border-radius:75px;
     -webkit-border-radius: 75px;
+
     max-width: 100px;
     min-width:60px;
-    background-color:#FF8DC7;
 
   }
-.circle:hover{
+/* .circle:hover{
   background-color: #D800A6;
-}
+} */
 /* hobbies */
-#hobbies{
-  padding:7% 15%;
+
+.slide-text {
   text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #D6E4E5;
+
+}
+@media (min-width:1028px) {
+  #features{
+     /* margin:100px auto; */
+     height: 800px;
+
+
+   }
+   .feat{
+     margin:150px auto;
+   }
+     .set-up{
+       height:800px;;
+
+     }
+     #hobbies .slide-text{
+       font-size: 40px;
+     }
+
+  }
+  @media(max-width:540px)
+  {
+    #hobbies .slide-text{
+      font-size: 1.25rem;
+    }
+    @media(max-width:413px)
+    {
+      #hobbies .slide-text{
+        position: absolute;
+        font-size: 1rem;
+      }
+    }
+    @media(max-width:413px)
+    {
+      #hobbies .slide-text{
+        position: absolute;
+        font-size: 1rem;
+      }
+    }
+    @media(max-width:334px)
+    {
+      #hobbies .slide-text{
+        position: absolute;
+        font-size: 70%;
+      }
+    }
+
+  }
+  /* footer section */
+  .foot {
+  padding: 7% 15%;
+}
+.social-icons {
+  margin: 20px 10px;
+}
+.Copyright{
+  font-family: arial;
 }
