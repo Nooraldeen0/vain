@@ -230,13 +230,13 @@ font-family: arial;
       {
         #hobbies .slide-text{
           position: absolute;
-          font-size: 0.6rem;;
+          font-size: 0.6rem;
         }
     }
     @media(max-width:240px)
     {
       #hobbies .slide-text{
         position: absolute;
-        font-size: 0.5rem;;
+        font-size: 0.5rem;
       }
   }
