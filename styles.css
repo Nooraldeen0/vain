@@ -173,6 +173,18 @@ margin-bottom:14px;
   color: #D6E4E5;
 
 }
+/* footer section */
+#footer {
+padding: 7% 15%;
+
+}
+.social-icons {
+margin: 20px 10px;
+}
+.Copyright{
+font-family: arial;
+}
+
 @media (min-width:1028px) {
   #features{
      /* margin:100px auto; */
@@ -189,24 +201,24 @@ margin-bottom:14px;
      }
      #hobbies .slide-text{
        font-size: 40px;
-     }
+     }}
 
-  }
+
   @media(max-width:670px)
   {
     #hobbies .slide-text{
       font-size: 1.25rem;
-    }
-  @media(max-width:487px)
-  {
-    #hobbies .slide-text{
-      font-size: 1.1rem;
-    }
-    @media(max-width:465px)
+    }}
+    @media(max-width:487px)
     {
       #hobbies .slide-text{
-        font-size: 1.05rem;
-      }
+        font-size: 1.1rem;
+      }}
+      @media(max-width:465px)
+      {
+        #hobbies .slide-text{
+          font-size: 1.05rem;
+        }}
     @media(max-width:413px)
     {
       #hobbies .slide-text{
@@ -214,19 +226,14 @@ margin-bottom:14px;
         font-size: 1rem;
       }
     }
-    @media(max-width:413px)
-    {
-      #hobbies .slide-text{
-        position: absolute;
-        font-size: 1rem;
-      }
+
     }
     @media(max-width:391px)
     {
       #hobbies .slide-text{
         position: absolute;
         font-size: 65%;
-      }
+      }}
       @media(max-width:280px)
       {
         #hobbies .slide-text{
@@ -234,16 +241,3 @@ margin-bottom:14px;
           font-size: 55%;
         }
     }
-
-  }
-  /* footer section */
-  .foot {
-  padding: 7% 15%;
-}
-.social-icons {
-  margin: 20px 10px;
-}
-.Copyright{
-  font-family: arial;
-}
-
