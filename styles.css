@@ -182,7 +182,7 @@ padding: 7% 15%;
 .social-icons {
 margin: 20px 10px;
 }
-.copyright{
+.Copyright{
 font-family: arial;
 }
 
@@ -203,6 +203,7 @@ font-family: arial;
      #hobbies .slide-text{
        font-size: 40px;
      }}
+
 
   @media(max-width:670px)
   {
@@ -239,4 +240,3 @@ font-family: arial;
         font-size: 0.5rem;;
       }
   }
-
